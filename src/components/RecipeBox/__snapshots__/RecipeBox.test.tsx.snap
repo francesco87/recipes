@@ -1,0 +1,48 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RecipeBox Component > RecipeBox Snapshot 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-42nkya-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <img
+      alt="Pizza Margherita"
+      class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1kuwa16-MuiCardMedia-root"
+      height="180"
+      src="https://example.com/pizza.jpg"
+    />
+    <div
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+    >
+      <div
+        data-testid="favorite-mock"
+      >
+        Favorite Mock 
+        12345
+      </div>
+      <div
+        class="MuiTypography-root MuiTypography-h6 css-1rlo9o3-MuiTypography-root"
+      >
+        Pizza Margherita
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-h85k1g-MuiTypography-root"
+      >
+        Bake it in the oven.
+      </p>
+    </div>
+    <div
+      class="MuiCardActions-root MuiCardActions-spacing css-1q4nm6f-MuiCardActions-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary css-1ccsd5i-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        See details...
+      </button>
+    </div>
+  </div>
+</div>
+`;

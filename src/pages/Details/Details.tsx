@@ -17,7 +17,7 @@ const Details = () => {
     JSON.parse(localStorage.getItem('currentRecipe') || '{}')
   );
   const { data, isFetching, refetch } = useQuery({
-    queryKey: ['recipes'],
+    queryKey: ['recipes', id],
     queryFn: () => getRecipeById(id),
     enabled: false,
   });
@@ -62,7 +62,7 @@ const Details = () => {
   }
 
   if (isFetching) {
-    return <h1>Loading</h1>;
+    return <h1>Loading...</h1>;
   }
 
   return (

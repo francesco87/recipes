@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`IngredientsList Component > IngredientsList Snapshot 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-i3pbo"
+  >
+    <h6
+      class="MuiTypography-root MuiTypography-h6 css-1hd3wng-MuiTypography-root"
+    >
+      INGREDIENTS:
+    </h6>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 css-1ml5fja-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-ytim1c-MuiTypography-root"
+        >
+          Tomato
+          : 
+          2 pcs
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-6 css-1ml5fja-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-ytim1c-MuiTypography-root"
+        >
+          Onion
+          : 
+          1 pc
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
